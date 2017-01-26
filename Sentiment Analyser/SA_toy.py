@@ -80,7 +80,7 @@ word_features = get_word_features(get_words_in_tweets(tweets))
 training_set = nltk.classify.apply_features(extract_features, tweets)
 print training_set
 classifier = nltk.NaiveBayesClassifier.train(training_set)
-
+print "FINAL: ", classifier.classify(extract_features("she is a good girl".split()))
 ###################################################################
 
 
