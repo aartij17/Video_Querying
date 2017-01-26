@@ -1,7 +1,5 @@
 import nltk
 
-print nltk.__version__
-exit(0)
 
 def get_words_in_tweets(tweets):
     all_words = []
