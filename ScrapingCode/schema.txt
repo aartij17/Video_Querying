@@ -1,0 +1,2 @@
+Name, Runs, Balls,4s, 6s, SR  ------- batsmen
+Name, Overs, Maiden, Runs, Wickets, Economy, 0s, 4s, 6s  --------bowler
